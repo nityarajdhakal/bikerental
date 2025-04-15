@@ -23,7 +23,7 @@ function Footer() {
               height={40}
               className="rounded-full"
             />
-            Bike Sewa
+            Bikerental
           </Link>
           <p className="w-full text-sm md:w-[75%] text-gray-400">
             Rent a bike and embark on an exciting journey through your city.
@@ -32,7 +32,7 @@ function Footer() {
             bikes ensures that you&apos;ll find the perfect ride for your
             adventure. From lightweight road bikes to rugged mountain bikes, we
             offer a variety of options designed for all levels of riders.
-            Experience the freedom of cycling, stay fit, and explore hidden gems
+            Experience the freedom of riding, s and explore hidden gems
             in your city like never before. Choose the bike that suits your
             style and start your adventure today!
           </p>
@@ -88,21 +88,21 @@ function Footer() {
             <div className="flex flex-col gap-1 text-gray-400">
               <Link
                 className="hover:text-white"
-                to="https://www.instagram.com/_ashraya_phuyal/"
+                to="https://www.instagram.com/nityaraj_dhakal/"
                 target="_blank"
               >
                 Instagram
               </Link>
               <Link
                 className="hover:text-white"
-                to="https://github.com/AshrayaPhuyal"
+                to="https://github.com/nityarajdhakal"
                 target="_blank"
               >
                 Github
               </Link>
               <Link
                 className="hover:text-white"
-                to="https://www.linkedin.com/in/ashraya-phuyal-0b903325a/"
+                to="https://www.linkedin.com/in/nityaraj-dhakal-62032a355/"
                 target="_blank"
               >
                 Linkedin
@@ -115,7 +115,7 @@ function Footer() {
       <div className="flex items-center justify-between">
         {" "}
         <div className="py-4 font-mono text-white text-sm text-center w-full ">
-          Copyright {new Date().getFullYear()} @ Bike Sewa - All Right Reserved.
+          Copyright {new Date().getFullYear()} @ Bikerental - All Right Reserved.
         </div>
       </div>
 

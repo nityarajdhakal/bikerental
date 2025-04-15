@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
 import logo from "../assets/logo.webp";
 import { Link, useNavigate } from "react-router-dom";
 import toast from "react-hot-toast";
@@ -70,6 +71,8 @@ function Navbar() {
             <Link to={"/"}>Dashboard</Link>
             <Link to={"/add-product"}>Add Product</Link>
             <Link to={"/product-display"}> All Products</Link>
+            <Link to={"/users"}>All Users</Link>
+            <Link to={"/kyc-request"}>Kyc-Request</Link>
           </ul>
         </div>
         <div className="navbar-start">
@@ -84,7 +87,7 @@ function Navbar() {
               height={40}
               className="rounded-full"
             />
-            Bike Sewa
+            Bikerental
           </Link>
         </div>
       </div>
