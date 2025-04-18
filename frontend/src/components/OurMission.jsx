@@ -18,7 +18,7 @@ function OurMission() {
           className="text-3xl md:text-4xl text-white font-mono tracking-tight"
         />
         <p>
-          At Reeleiic, we strive to revolutionize the bike rental experience by
+          At Bike Sewa, we strive to revolutionize the bike rental experience by
           making mobility more accessible, affordable, and convenient. Our
           platform is designed to provide users with a seamless way to rent or
           purchase high-quality bikes, whether for daily commutes, leisure
@@ -38,7 +38,7 @@ function OurMission() {
           confidence, and a hassle-free rental experience. We prioritize user
           satisfaction by providing an intuitive booking system, transparent
           pricing, and dedicated customer support. Whether you&apos;re exploring
-          new routes or simply commuting, Reeleiic is here to make your journey
+          new routes or simply commuting, Bike Sewa is here to make your journey
           smooth, enjoyable, and unforgettable.
         </p>
       </div>

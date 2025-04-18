@@ -29,7 +29,7 @@ function Navbar() {
         toast.success("Logout successful!");
         localStorage.removeItem("token");
         setToken(null);
-        navigate("/");
+        navigate("/login");
       }
     },
     onError: (error) => {
@@ -87,7 +87,7 @@ function Navbar() {
               height={40}
               className="rounded-full"
             />
-            Bikerental
+            Bike Rental
           </Link>
         </div>
       </div>
