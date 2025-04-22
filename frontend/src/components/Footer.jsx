@@ -86,7 +86,7 @@ function Footer() {
           <div className="flex items-start flex-col gap-6">
             <h1 className="text-xl font-bold font-mono">GET IN TOUCH</h1>
             <div className="flex flex-col gap-1 text-gray-400">
-            <Link
+              <Link
                 className="hover:text-white"
                 to="https://www.instagram.com/nityaraj_dhakal/"
                 target="_blank"
@@ -115,7 +115,7 @@ function Footer() {
       <div className="flex items-center justify-between">
         {" "}
         <div className="py-4 font-mono text-white text-sm text-center w-full ">
-          Copyright {new Date().getFullYear()} @ Bike Rental - All Right Reserved.
+          Copyright {new Date().getFullYear()} @ Bikerental - All Right Reserved.
         </div>
       </div>
 
