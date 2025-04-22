@@ -69,7 +69,7 @@ function OurMission() {
               confidence, and a hassle-free rental experience. We prioritize
               user satisfaction by providing an intuitive booking system,
               transparent pricing, and dedicated customer support. Whether
-              you&apos;re exploring new routes or simply commuting, Reeleiic is
+              you&apos;re exploring new routes or simply commuting, Bike Rental is
               here to make your journey smooth, enjoyable, and unforgettable.
             </p>
           </motion.div>
