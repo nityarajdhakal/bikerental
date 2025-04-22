@@ -2,7 +2,7 @@ import { z } from "zod";
 import { userModel } from "../models/user.models.js";
 import { uploadOnCloudinary } from "../utils/cloudinaryConfig.js";
 import { generateToken } from "../utils/generateToken.js";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import jwt from "jsonwebtoken";
 import crypto from "crypto";
 import transporter from "../utils/nodemailerConfig.js";
