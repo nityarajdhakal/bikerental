@@ -16,6 +16,7 @@ function Orders() {
           },
         }
       );
+      console.log(response.data)
       setOrders(response.data.orders.reverse());
     } catch (error) {
       console.error("Error fetching orders:", error);
@@ -36,6 +37,7 @@ function Orders() {
           },
         }
       );
+      
       if (response.data.success) {
         toast.success("Order status updated");
         fetchOrders();
@@ -107,7 +109,7 @@ function Orders() {
                       <div className="avatar">
                         <div className="w-12 h-12 rounded">
                           <img
-                            src={order.bike.images[0]}
+                            src={order.bike?.images[0]}
                             alt={order.bike.bikeName}
                           />
                         </div>
