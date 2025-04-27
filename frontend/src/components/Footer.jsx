@@ -115,7 +115,7 @@ function Footer() {
       <div className="flex items-center justify-between">
         {" "}
         <div className="py-4 font-mono text-white text-sm text-center w-full ">
-          Copyright {new Date().getFullYear()} @ Bike Rental - All Right Reserved.
+          Copyright {new Date().getFullYear()} @ Bikerental - All Right Reserved.
         </div>
       </div>
 
