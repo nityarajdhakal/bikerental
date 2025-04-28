@@ -8,7 +8,11 @@ const BikeCategories = z.enum([
   "Sports",
   "Scooter",
   "Electric",
-]);
+  "Naked",
+  "Touring",
+  "Cafe Racers",
+  "Off-Road",
+];
 const BikeColors = z.enum([
   "Black",
   "White",
