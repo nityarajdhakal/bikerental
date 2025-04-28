@@ -97,20 +97,20 @@ export const testimonialsData = [
     role: "Bike Enthusiast",
     image: "https://randomuser.me/api/portraits/women/75.jpg",
     quote:
-      "Reeliic made it so easy to rent a bike while traveling. The entire process was smooth, and the bike was in top-notch condition!",
+      "Bike Rental made it so easy to rent a bike while traveling. The entire process was smooth, and the bike was in top-notch condition!",
   },
   {
     name: "Michael Chen",
     role: "Weekend Rider",
     image: "https://randomuser.me/api/portraits/men/75.jpg",
     quote:
-      "I’ve used Reeliic to both rent and buy bikes — it's incredibly convenient and user-friendly. I love how transparent the pricing is.",
+      "I’ve used Bike Rental to both rent and buy bikes — it's incredibly convenient and user-friendly. I love how transparent the pricing is.",
   },
   {
     name: "Emily Rodriguez",
     role: "Delivery Partner",
     image: "https://randomuser.me/api/portraits/women/74.jpg",
     quote:
-      "Reeliic helped me get a reliable bike for my delivery work. Their support team is amazing and the rental plans are flexible and affordable.",
+      "Bike Rental helped me get a reliable bike for my delivery work. Their support team is amazing and the rental plans are flexible and affordable.",
   },
 ];

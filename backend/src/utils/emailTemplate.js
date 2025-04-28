@@ -45,7 +45,7 @@ export const emailVerificationTemplate = (token) => {
               <p>This link will expire in 1 hour.</p>
               <div class="footer">
                   <p>If you didn't create an account with us, please ignore this email.</p>
-                  <p>© ${new Date().getFullYear()} Reeliic. All rights reserved.</p>
+                  <p>© ${new Date().getFullYear()} Bike Rental. All rights reserved.</p>
               </div>
           </div>
       </body>

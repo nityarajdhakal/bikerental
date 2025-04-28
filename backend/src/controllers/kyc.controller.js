@@ -202,7 +202,7 @@ export async function rejectKycRequest(req, res) {
       from: process.env.EMAIL_FROM,
       to: deletedKyc.emailAddress,
       subject: "KYC Request Rejected",
-      html: kycRejectionEmail(deletedKyc.fullName, "Reeliic"),
+      html: kycRejectionEmail(deletedKyc.fullName, "Bike Rental"),
     });
 
     return res.status(200).json({
@@ -262,7 +262,7 @@ export async function approveKycRequest(req, res) {
       from: process.env.EMAIL_FROM,
       to: kycRequest.emailAddress,
       subject: "KYC Verification Successful",
-      html: kycVerificationSuccessEmail(kycRequest.fullName, "Reeliic"),
+      html: kycVerificationSuccessEmail(kycRequest.fullName, "Bike Rental"),
     });
 
     return res.status(200).json({

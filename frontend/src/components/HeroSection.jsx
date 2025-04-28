@@ -136,7 +136,7 @@ function HeroSection() {
         </motion.div>
 
         <motion.img
-          src="http://res.cloudinary.com/sushovanbhattarai/image/upload/v1741186988/d8peiwogdwjht6zqloem.avif"
+          src="https://images.hindustantimes.com/auto/img/2020/03/31/600x338/42109_Kawasaki-Ninja_superbike_discount_BS4_1585640569251_1585640569651.jpg"
           alt="Bike"
           className="absolute right-10 bottom-10 w-1/4 max-w-xs hidden lg:block rounded-lg shadow-2xl border-2 border-gray-800/50"
           initial={{ opacity: 0, x: 100 }}
