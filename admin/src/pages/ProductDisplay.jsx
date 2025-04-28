@@ -134,12 +134,12 @@ function ProductDisplay() {
                     <td>{product.cc}</td>
                     <td>
                       <div className="flex gap-2">
-                        <div className="tooltip" data-tip="edit">
+                        <div className="tooltip hidden" data-tip="edit">
                           <button className="btn btn-info px-2  btn-sm">
                             <Pencil size={20} />
                           </button>
                         </div>
-                        <div className="tooltip" data-tip="view">
+                        <div className="tooltip hidden" data-tip="view">
                           {" "}
                           <button className="btn px-2 btn-success btn-sm">
                             <Eye size={20} />
